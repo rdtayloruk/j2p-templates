@@ -6,8 +6,7 @@
             "name": "sample-template.j2",
             "description": "Template for XYZ",
             "var_files": [
-                "sample-sample.yml",
-                "sample2.yml",
+                "sample_vars.yml"
             ]
         }
     ]
