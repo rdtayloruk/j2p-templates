@@ -8,6 +8,13 @@
             "var_files": [
                 "sample_vars.yml"
             ]
+        },
+         { 
+            "name": "oc-platform.j2",
+            "description": "Template for XYZ",
+            "var_files": [
+                "oc-platform-srl.json"
+            ]
         }
     ]
 }
