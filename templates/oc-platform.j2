@@ -1,0 +1,57 @@
+{% macro replace_type(input_string) -%}
+  {% set replacements = {
+  "openconfig-platform-types:PORT": "port",
+  "openconfig-platform-types:TRANSCEIVER": "transceiver",
+  "openconfig-platform-types:OPERATING_SYSTEM": "operating_system",
+  "openconfig-platform-types:CONTROLLER_CARD": "module",
+  "openconfig-platform-types:CHASSIS": "chassis",
+  "openconfig-platform-types:FAN": "fan"
+   } -%}
+  {% if input_string in replacements.keys() -%}
+  {% set result = replacements[ input_string] -%}
+  {% else -%}
+  {% set result = "other" -%}
+  {% endif -%}
+  {{ result }}{% endmacro -%}
+ 
+{% set mapping = {
+  "name": "name",
+  "type": "class",
+  "description": "description",
+  'mfg-name': 'mfgName',
+  'hardware-version': 'hardwareRev',
+  'software-version': 'softwareRev',
+  'part-no': 'partNumber',
+  'parent': 'parent',
+  'location': 'parentRelPos'
+} %}
+
+{% set oc_components = data.components.component -%}
+{% set parent_type = 'openconfig-platform-types:CHASSIS' -%}
+{% set header = oc_components | selectattr('state.type', 'equalto', parent_type) | first -%}
+{% set payload = {
+  'name': header.state.name,
+  'description': header.state.description,
+  'mfgName': header.state['mfg-name'],
+  'hardwareRev': header.state['hardware-version']
+} -%}
+{% if header.state['software-version'] %}
+{% set _ = payload.update({'softwareVersion': component.state['software-version']} ) %}
+{% endif -%}
+
+{% set components = [] -%}
+{% for component in oc_components -%}
+  {% set item = {} %}
+  {% for k, v in component.state.items() %}
+   {% if mapping[k] %}
+       {% if k == 'type' %}
+       {% set _ = item.update({mapping[k]: replace_type(v)}) %}
+     {% else %}
+       {% set _ = item.update({mapping[k]: v}) %}
+     {% endif -%}
+   {% endif -%}
+  {% endfor %}
+  {% set _ = components.append(item) -%}
+{% endfor %}
+{% set _ = payload.update({'components': components}) %}
+{{ payload | tojson(indent=2) }}
