@@ -1,0 +1,2473 @@
+{
+    "data": {
+        "components": {
+            "component": [
+                {
+                    "name": "BIOS-ControlA",
+                    "state": {
+                        "description": "BIOS on component ControlA",
+                        "id": "BIOS-ControlA",
+                        "location": "ControlA",
+                        "mfg-name": "",
+                        "name": "BIOS-ControlA",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "parent": "ControlA",
+                        "removable": "false",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:BIOS"
+                    }
+                },
+                {
+                    "name": "BIOS-Linecard1",
+                    "state": {
+                        "description": "BIOS on component Linecard1",
+                        "id": "BIOS-Linecard1",
+                        "location": "Linecard1",
+                        "mfg-name": "",
+                        "name": "BIOS-Linecard1",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "parent": "Linecard1",
+                        "removable": "false",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:BIOS"
+                    }
+                },
+                {
+                    "name": "BootLoader-ControlA",
+                    "state": {
+                        "description": "Boot loader on component ControlA",
+                        "id": "BootLoader-ControlA",
+                        "location": "ControlA",
+                        "mfg-name": "GNU",
+                        "name": "BootLoader-ControlA",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "parent": "ControlA",
+                        "removable": "false",
+                        "software-version": "Sim bootloader",
+                        "type": "openconfig-platform-types:BOOT_LOADER"
+                    }
+                },
+                {
+                    "name": "CPU-ControlA",
+                    "state": {
+                        "description": "13th Gen Intel(R) Core(TM) i5-1340P",
+                        "id": "CPU-ControlA",
+                        "name": "CPU-ControlA",
+                        "parent": "ControlA",
+                        "type": "openconfig-platform-types:CPU"
+                    }
+                },
+                {
+                    "name": "Chassis",
+                    "state": {
+                        "base-mac-address": "1a:20:00:ff:00:00",
+                        "description": "7220 IXR-D2L",
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Chassis",
+                        "last-reboot-reason": "openconfig-platform-types:REBOOT_CRITICAL_ERROR",
+                        "last-reboot-time": "1740243217522000000",
+                        "mfg-name": "Nokia",
+                        "name": "Chassis",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "part-no": "Sim Part No.",
+                        "removable": "false",
+                        "serial-no": "Sim Serial No.",
+                        "type": "openconfig-platform-types:CHASSIS"
+                    }
+                },
+                {
+                    "name": "ControlA",
+                    "state": {
+                        "description": "imm48-25g-sfp28+8-100g-qsfp28+2-10g-sfpp",
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "ControlA",
+                        "last-reboot-reason": "openconfig-platform-types:REBOOT_CRITICAL_ERROR",
+                        "last-reboot-time": "1740243217522000000",
+                        "location": "Chassis",
+                        "memory": {
+                            "available": "7940432000",
+                            "utilized": "5548668000"
+                        },
+                        "mfg-name": "Nokia",
+                        "name": "ControlA",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "parent": "Chassis",
+                        "part-no": "Sim Part No.",
+                        "removable": "false",
+                        "serial-no": "Sim Serial No.",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:CONTROLLER_CARD"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/1-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/1-Port",
+                        "location": "ethernet-1/1",
+                        "name": "Ethernet-1/1-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/1-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/1-transceiver",
+                        "location": "Ethernet-1/1-Port",
+                        "name": "Ethernet-1/1-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/1-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/2-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/2-Port",
+                        "location": "ethernet-1/2",
+                        "name": "Ethernet-1/2-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/2-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/2-transceiver",
+                        "location": "Ethernet-1/2-Port",
+                        "name": "Ethernet-1/2-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/2-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/3-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/3-Port",
+                        "location": "ethernet-1/3",
+                        "name": "Ethernet-1/3-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/3-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/3-transceiver",
+                        "location": "Ethernet-1/3-Port",
+                        "name": "Ethernet-1/3-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/3-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/4-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/4-Port",
+                        "location": "ethernet-1/4",
+                        "name": "Ethernet-1/4-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/4-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/4-transceiver",
+                        "location": "Ethernet-1/4-Port",
+                        "name": "Ethernet-1/4-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/4-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/5-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/5-Port",
+                        "location": "ethernet-1/5",
+                        "name": "Ethernet-1/5-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/5-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/5-transceiver",
+                        "location": "Ethernet-1/5-Port",
+                        "name": "Ethernet-1/5-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/5-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/6-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/6-Port",
+                        "location": "ethernet-1/6",
+                        "name": "Ethernet-1/6-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/6-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/6-transceiver",
+                        "location": "Ethernet-1/6-Port",
+                        "name": "Ethernet-1/6-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/6-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/7-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/7-Port",
+                        "location": "ethernet-1/7",
+                        "name": "Ethernet-1/7-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/7-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/7-transceiver",
+                        "location": "Ethernet-1/7-Port",
+                        "name": "Ethernet-1/7-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/7-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/8-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/8-Port",
+                        "location": "ethernet-1/8",
+                        "name": "Ethernet-1/8-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/8-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/8-transceiver",
+                        "location": "Ethernet-1/8-Port",
+                        "name": "Ethernet-1/8-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/8-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/9-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/9-Port",
+                        "location": "ethernet-1/9",
+                        "name": "Ethernet-1/9-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/9-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/9-transceiver",
+                        "location": "Ethernet-1/9-Port",
+                        "name": "Ethernet-1/9-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/9-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/10-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/10-Port",
+                        "location": "ethernet-1/10",
+                        "name": "Ethernet-1/10-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/10-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/10-transceiver",
+                        "location": "Ethernet-1/10-Port",
+                        "name": "Ethernet-1/10-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/10-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/11-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/11-Port",
+                        "location": "ethernet-1/11",
+                        "name": "Ethernet-1/11-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/11-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/11-transceiver",
+                        "location": "Ethernet-1/11-Port",
+                        "name": "Ethernet-1/11-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/11-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/12-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/12-Port",
+                        "location": "ethernet-1/12",
+                        "name": "Ethernet-1/12-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/12-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/12-transceiver",
+                        "location": "Ethernet-1/12-Port",
+                        "name": "Ethernet-1/12-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/12-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/13-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/13-Port",
+                        "location": "ethernet-1/13",
+                        "name": "Ethernet-1/13-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/13-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/13-transceiver",
+                        "location": "Ethernet-1/13-Port",
+                        "name": "Ethernet-1/13-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/13-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/14-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/14-Port",
+                        "location": "ethernet-1/14",
+                        "name": "Ethernet-1/14-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/14-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/14-transceiver",
+                        "location": "Ethernet-1/14-Port",
+                        "name": "Ethernet-1/14-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/14-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/15-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/15-Port",
+                        "location": "ethernet-1/15",
+                        "name": "Ethernet-1/15-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/15-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/15-transceiver",
+                        "location": "Ethernet-1/15-Port",
+                        "name": "Ethernet-1/15-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/15-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/16-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/16-Port",
+                        "location": "ethernet-1/16",
+                        "name": "Ethernet-1/16-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/16-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/16-transceiver",
+                        "location": "Ethernet-1/16-Port",
+                        "name": "Ethernet-1/16-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/16-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/17-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/17-Port",
+                        "location": "ethernet-1/17",
+                        "name": "Ethernet-1/17-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/17-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/17-transceiver",
+                        "location": "Ethernet-1/17-Port",
+                        "name": "Ethernet-1/17-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/17-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/18-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/18-Port",
+                        "location": "ethernet-1/18",
+                        "name": "Ethernet-1/18-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/18-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/18-transceiver",
+                        "location": "Ethernet-1/18-Port",
+                        "name": "Ethernet-1/18-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/18-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/19-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/19-Port",
+                        "location": "ethernet-1/19",
+                        "name": "Ethernet-1/19-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/19-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/19-transceiver",
+                        "location": "Ethernet-1/19-Port",
+                        "name": "Ethernet-1/19-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/19-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/20-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/20-Port",
+                        "location": "ethernet-1/20",
+                        "name": "Ethernet-1/20-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/20-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/20-transceiver",
+                        "location": "Ethernet-1/20-Port",
+                        "name": "Ethernet-1/20-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/20-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/21-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/21-Port",
+                        "location": "ethernet-1/21",
+                        "name": "Ethernet-1/21-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/21-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/21-transceiver",
+                        "location": "Ethernet-1/21-Port",
+                        "name": "Ethernet-1/21-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/21-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/22-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/22-Port",
+                        "location": "ethernet-1/22",
+                        "name": "Ethernet-1/22-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/22-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/22-transceiver",
+                        "location": "Ethernet-1/22-Port",
+                        "name": "Ethernet-1/22-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/22-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/23-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/23-Port",
+                        "location": "ethernet-1/23",
+                        "name": "Ethernet-1/23-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/23-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/23-transceiver",
+                        "location": "Ethernet-1/23-Port",
+                        "name": "Ethernet-1/23-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/23-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/24-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/24-Port",
+                        "location": "ethernet-1/24",
+                        "name": "Ethernet-1/24-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/24-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/24-transceiver",
+                        "location": "Ethernet-1/24-Port",
+                        "name": "Ethernet-1/24-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/24-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/25-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/25-Port",
+                        "location": "ethernet-1/25",
+                        "name": "Ethernet-1/25-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/25-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/25-transceiver",
+                        "location": "Ethernet-1/25-Port",
+                        "name": "Ethernet-1/25-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/25-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/26-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/26-Port",
+                        "location": "ethernet-1/26",
+                        "name": "Ethernet-1/26-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/26-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/26-transceiver",
+                        "location": "Ethernet-1/26-Port",
+                        "name": "Ethernet-1/26-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/26-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/27-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/27-Port",
+                        "location": "ethernet-1/27",
+                        "name": "Ethernet-1/27-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/27-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/27-transceiver",
+                        "location": "Ethernet-1/27-Port",
+                        "name": "Ethernet-1/27-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/27-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/28-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/28-Port",
+                        "location": "ethernet-1/28",
+                        "name": "Ethernet-1/28-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/28-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/28-transceiver",
+                        "location": "Ethernet-1/28-Port",
+                        "name": "Ethernet-1/28-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/28-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/29-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/29-Port",
+                        "location": "ethernet-1/29",
+                        "name": "Ethernet-1/29-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/29-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/29-transceiver",
+                        "location": "Ethernet-1/29-Port",
+                        "name": "Ethernet-1/29-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/29-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/30-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/30-Port",
+                        "location": "ethernet-1/30",
+                        "name": "Ethernet-1/30-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/30-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/30-transceiver",
+                        "location": "Ethernet-1/30-Port",
+                        "name": "Ethernet-1/30-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/30-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/31-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/31-Port",
+                        "location": "ethernet-1/31",
+                        "name": "Ethernet-1/31-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/31-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/31-transceiver",
+                        "location": "Ethernet-1/31-Port",
+                        "name": "Ethernet-1/31-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/31-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/32-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/32-Port",
+                        "location": "ethernet-1/32",
+                        "name": "Ethernet-1/32-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/32-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/32-transceiver",
+                        "location": "Ethernet-1/32-Port",
+                        "name": "Ethernet-1/32-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/32-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/33-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/33-Port",
+                        "location": "ethernet-1/33",
+                        "name": "Ethernet-1/33-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/33-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/33-transceiver",
+                        "location": "Ethernet-1/33-Port",
+                        "name": "Ethernet-1/33-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/33-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/34-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/34-Port",
+                        "location": "ethernet-1/34",
+                        "name": "Ethernet-1/34-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/34-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/34-transceiver",
+                        "location": "Ethernet-1/34-Port",
+                        "name": "Ethernet-1/34-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/34-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/35-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/35-Port",
+                        "location": "ethernet-1/35",
+                        "name": "Ethernet-1/35-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/35-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/35-transceiver",
+                        "location": "Ethernet-1/35-Port",
+                        "name": "Ethernet-1/35-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/35-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/36-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/36-Port",
+                        "location": "ethernet-1/36",
+                        "name": "Ethernet-1/36-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/36-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/36-transceiver",
+                        "location": "Ethernet-1/36-Port",
+                        "name": "Ethernet-1/36-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/36-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/37-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/37-Port",
+                        "location": "ethernet-1/37",
+                        "name": "Ethernet-1/37-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/37-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/37-transceiver",
+                        "location": "Ethernet-1/37-Port",
+                        "name": "Ethernet-1/37-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/37-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/38-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/38-Port",
+                        "location": "ethernet-1/38",
+                        "name": "Ethernet-1/38-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/38-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/38-transceiver",
+                        "location": "Ethernet-1/38-Port",
+                        "name": "Ethernet-1/38-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/38-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/39-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/39-Port",
+                        "location": "ethernet-1/39",
+                        "name": "Ethernet-1/39-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/39-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/39-transceiver",
+                        "location": "Ethernet-1/39-Port",
+                        "name": "Ethernet-1/39-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/39-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/40-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/40-Port",
+                        "location": "ethernet-1/40",
+                        "name": "Ethernet-1/40-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/40-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/40-transceiver",
+                        "location": "Ethernet-1/40-Port",
+                        "name": "Ethernet-1/40-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/40-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/41-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/41-Port",
+                        "location": "ethernet-1/41",
+                        "name": "Ethernet-1/41-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/41-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/41-transceiver",
+                        "location": "Ethernet-1/41-Port",
+                        "name": "Ethernet-1/41-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/41-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/42-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/42-Port",
+                        "location": "ethernet-1/42",
+                        "name": "Ethernet-1/42-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/42-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/42-transceiver",
+                        "location": "Ethernet-1/42-Port",
+                        "name": "Ethernet-1/42-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/42-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/43-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/43-Port",
+                        "location": "ethernet-1/43",
+                        "name": "Ethernet-1/43-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/43-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/43-transceiver",
+                        "location": "Ethernet-1/43-Port",
+                        "name": "Ethernet-1/43-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/43-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/44-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/44-Port",
+                        "location": "ethernet-1/44",
+                        "name": "Ethernet-1/44-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/44-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/44-transceiver",
+                        "location": "Ethernet-1/44-Port",
+                        "name": "Ethernet-1/44-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/44-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/45-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/45-Port",
+                        "location": "ethernet-1/45",
+                        "name": "Ethernet-1/45-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/45-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/45-transceiver",
+                        "location": "Ethernet-1/45-Port",
+                        "name": "Ethernet-1/45-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/45-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/46-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/46-Port",
+                        "location": "ethernet-1/46",
+                        "name": "Ethernet-1/46-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/46-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/46-transceiver",
+                        "location": "Ethernet-1/46-Port",
+                        "name": "Ethernet-1/46-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/46-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/47-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/47-Port",
+                        "location": "ethernet-1/47",
+                        "name": "Ethernet-1/47-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/47-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/47-transceiver",
+                        "location": "Ethernet-1/47-Port",
+                        "name": "Ethernet-1/47-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/47-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/48-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/48-Port",
+                        "location": "ethernet-1/48",
+                        "name": "Ethernet-1/48-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/48-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/48-transceiver",
+                        "location": "Ethernet-1/48-Port",
+                        "name": "Ethernet-1/48-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/48-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/49-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/49-Port",
+                        "location": "ethernet-1/49",
+                        "name": "Ethernet-1/49-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/49-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/49-transceiver",
+                        "location": "Ethernet-1/49-Port",
+                        "name": "Ethernet-1/49-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/49-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/50-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/50-Port",
+                        "location": "ethernet-1/50",
+                        "name": "Ethernet-1/50-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/50-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/50-transceiver",
+                        "location": "Ethernet-1/50-Port",
+                        "name": "Ethernet-1/50-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/50-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/51-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/51-Port",
+                        "location": "ethernet-1/51",
+                        "name": "Ethernet-1/51-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/51-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/51-transceiver",
+                        "location": "Ethernet-1/51-Port",
+                        "name": "Ethernet-1/51-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/51-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/52-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/52-Port",
+                        "location": "ethernet-1/52",
+                        "name": "Ethernet-1/52-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/52-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/52-transceiver",
+                        "location": "Ethernet-1/52-Port",
+                        "name": "Ethernet-1/52-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/52-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/53-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/53-Port",
+                        "location": "ethernet-1/53",
+                        "name": "Ethernet-1/53-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/53-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/53-transceiver",
+                        "location": "Ethernet-1/53-Port",
+                        "name": "Ethernet-1/53-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/53-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/54-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/54-Port",
+                        "location": "ethernet-1/54",
+                        "name": "Ethernet-1/54-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/54-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/54-transceiver",
+                        "location": "Ethernet-1/54-Port",
+                        "name": "Ethernet-1/54-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/54-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/55-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/55-Port",
+                        "location": "ethernet-1/55",
+                        "name": "Ethernet-1/55-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/55-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/55-transceiver",
+                        "location": "Ethernet-1/55-Port",
+                        "name": "Ethernet-1/55-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/55-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/56-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/56-Port",
+                        "location": "ethernet-1/56",
+                        "name": "Ethernet-1/56-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/56-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/56-transceiver",
+                        "location": "Ethernet-1/56-Port",
+                        "name": "Ethernet-1/56-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/56-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/57-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/57-Port",
+                        "location": "ethernet-1/57",
+                        "name": "Ethernet-1/57-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/57-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/57-transceiver",
+                        "location": "Ethernet-1/57-Port",
+                        "name": "Ethernet-1/57-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/57-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/58-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Ethernet-1/58-Port",
+                        "location": "ethernet-1/58",
+                        "name": "Ethernet-1/58-Port",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "SwitchChip1/0",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "Ethernet-1/58-transceiver",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Ethernet-1/58-transceiver",
+                        "location": "Ethernet-1/58-Port",
+                        "name": "Ethernet-1/58-transceiver",
+                        "oper-status": "openconfig-platform-types:DISABLED",
+                        "parent": "Ethernet-1/58-Port",
+                        "type": "openconfig-platform-types:TRANSCEIVER"
+                    }
+                },
+                {
+                    "name": "Fan1",
+                    "state": {
+                        "empty": "true",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Fan1",
+                        "location": "FanSlot1",
+                        "mfg-name": "Nokia",
+                        "name": "Fan1",
+                        "parent": "Chassis",
+                        "removable": "true",
+                        "type": "openconfig-platform-types:FAN"
+                    }
+                },
+                {
+                    "name": "Fan2",
+                    "state": {
+                        "empty": "true",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Fan2",
+                        "location": "FanSlot2",
+                        "mfg-name": "Nokia",
+                        "name": "Fan2",
+                        "parent": "Chassis",
+                        "removable": "true",
+                        "type": "openconfig-platform-types:FAN"
+                    }
+                },
+                {
+                    "name": "Fan3",
+                    "state": {
+                        "empty": "true",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Fan3",
+                        "location": "FanSlot3",
+                        "mfg-name": "Nokia",
+                        "name": "Fan3",
+                        "parent": "Chassis",
+                        "removable": "true",
+                        "type": "openconfig-platform-types:FAN"
+                    }
+                },
+                {
+                    "name": "Fan4",
+                    "state": {
+                        "empty": "true",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Fan4",
+                        "location": "FanSlot4",
+                        "mfg-name": "Nokia",
+                        "name": "Fan4",
+                        "parent": "Chassis",
+                        "removable": "true",
+                        "type": "openconfig-platform-types:FAN"
+                    }
+                },
+                {
+                    "name": "Fan5",
+                    "state": {
+                        "empty": "true",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Fan5",
+                        "location": "FanSlot5",
+                        "mfg-name": "Nokia",
+                        "name": "Fan5",
+                        "parent": "Chassis",
+                        "removable": "true",
+                        "type": "openconfig-platform-types:FAN"
+                    }
+                },
+                {
+                    "name": "Fan6",
+                    "state": {
+                        "empty": "true",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Fan6",
+                        "location": "FanSlot6",
+                        "mfg-name": "Nokia",
+                        "name": "Fan6",
+                        "parent": "Chassis",
+                        "removable": "true",
+                        "type": "openconfig-platform-types:FAN"
+                    }
+                },
+                {
+                    "name": "Linecard1",
+                    "state": {
+                        "description": "imm48-25g-sfp28+8-100g-qsfp28+2-10g-sfpp",
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "Linecard1",
+                        "last-reboot-time": "1740243223010000000",
+                        "location": "Chassis",
+                        "mfg-name": "Nokia",
+                        "name": "Linecard1",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "parent": "Chassis",
+                        "part-no": "Sim Part No.",
+                        "removable": "false",
+                        "serial-no": "Sim Serial No.",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:LINECARD"
+                    }
+                },
+                {
+                    "name": "Mgmt0-Port",
+                    "state": {
+                        "empty": "false",
+                        "id": "Mgmt0-Port",
+                        "location": "mgmt0",
+                        "name": "Mgmt0-Port",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "type": "openconfig-platform-types:PORT"
+                    }
+                },
+                {
+                    "name": "PowerSupply1",
+                    "state": {
+                        "empty": "true",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "PowerSupply1",
+                        "location": "PSUSlot1",
+                        "mfg-name": "Nokia",
+                        "name": "PowerSupply1",
+                        "parent": "Chassis",
+                        "removable": "true",
+                        "type": "openconfig-platform-types:POWER_SUPPLY"
+                    }
+                },
+                {
+                    "name": "PowerSupply2",
+                    "state": {
+                        "empty": "true",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "PowerSupply2",
+                        "location": "PSUSlot2",
+                        "mfg-name": "Nokia",
+                        "name": "PowerSupply2",
+                        "parent": "Chassis",
+                        "removable": "true",
+                        "type": "openconfig-platform-types:POWER_SUPPLY"
+                    }
+                },
+                {
+                    "name": "SRLinux-ControlA",
+                    "state": {
+                        "id": "SRLinux-ControlA",
+                        "name": "SRLinux-ControlA",
+                        "parent": "ControlA",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:OPERATING_SYSTEM"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-aaa_mgr",
+                    "state": {
+                        "id": "SoftwareModule-aaa_mgr",
+                        "name": "SoftwareModule-aaa_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-acl_mgr",
+                    "state": {
+                        "id": "SoftwareModule-acl_mgr",
+                        "name": "SoftwareModule-acl_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-app_mgr",
+                    "state": {
+                        "id": "SoftwareModule-app_mgr",
+                        "name": "SoftwareModule-app_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-arp_nd_mgr",
+                    "state": {
+                        "id": "SoftwareModule-arp_nd_mgr",
+                        "name": "SoftwareModule-arp_nd_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-bfd_mgr",
+                    "state": {
+                        "id": "SoftwareModule-bfd_mgr",
+                        "name": "SoftwareModule-bfd_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-bgp_mgr",
+                    "state": {
+                        "id": "SoftwareModule-bgp_mgr",
+                        "name": "SoftwareModule-bgp_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-chassis_mgr",
+                    "state": {
+                        "id": "SoftwareModule-chassis_mgr",
+                        "name": "SoftwareModule-chassis_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-dev_mgr",
+                    "state": {
+                        "id": "SoftwareModule-dev_mgr",
+                        "name": "SoftwareModule-dev_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-dhcp_client_mgr",
+                    "state": {
+                        "id": "SoftwareModule-dhcp_client_mgr",
+                        "name": "SoftwareModule-dhcp_client_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-dhcp_relay_mgr",
+                    "state": {
+                        "id": "SoftwareModule-dhcp_relay_mgr",
+                        "name": "SoftwareModule-dhcp_relay_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-dhcp_server_mgr",
+                    "state": {
+                        "id": "SoftwareModule-dhcp_server_mgr",
+                        "name": "SoftwareModule-dhcp_server_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-dnsmasq-mgmt",
+                    "state": {
+                        "id": "SoftwareModule-dnsmasq-mgmt",
+                        "name": "SoftwareModule-dnsmasq-mgmt",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "2.89",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-ethcfm_mgr",
+                    "state": {
+                        "id": "SoftwareModule-ethcfm_mgr",
+                        "name": "SoftwareModule-ethcfm_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-event_mgr",
+                    "state": {
+                        "id": "SoftwareModule-event_mgr",
+                        "name": "SoftwareModule-event_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-evpn_mgr",
+                    "state": {
+                        "id": "SoftwareModule-evpn_mgr",
+                        "name": "SoftwareModule-evpn_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-fhs_mgr",
+                    "state": {
+                        "id": "SoftwareModule-fhs_mgr",
+                        "name": "SoftwareModule-fhs_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-fib_mgr",
+                    "state": {
+                        "id": "SoftwareModule-fib_mgr",
+                        "name": "SoftwareModule-fib_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-grpc_server",
+                    "state": {
+                        "id": "SoftwareModule-grpc_server",
+                        "name": "SoftwareModule-grpc_server",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-idb_server",
+                    "state": {
+                        "id": "SoftwareModule-idb_server",
+                        "name": "SoftwareModule-idb_server",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-igmp_mgr",
+                    "state": {
+                        "id": "SoftwareModule-igmp_mgr",
+                        "name": "SoftwareModule-igmp_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-isis_mgr",
+                    "state": {
+                        "id": "SoftwareModule-isis_mgr",
+                        "name": "SoftwareModule-isis_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-json_rpc",
+                    "state": {
+                        "id": "SoftwareModule-json_rpc",
+                        "name": "SoftwareModule-json_rpc",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-l2_mac_learn_mgr",
+                    "state": {
+                        "id": "SoftwareModule-l2_mac_learn_mgr",
+                        "name": "SoftwareModule-l2_mac_learn_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-l2_mac_mgr",
+                    "state": {
+                        "id": "SoftwareModule-l2_mac_mgr",
+                        "name": "SoftwareModule-l2_mac_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-l2_proxy_arp_nd_mgr",
+                    "state": {
+                        "id": "SoftwareModule-l2_proxy_arp_nd_mgr",
+                        "name": "SoftwareModule-l2_proxy_arp_nd_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-l2_static_mac_mgr",
+                    "state": {
+                        "id": "SoftwareModule-l2_static_mac_mgr",
+                        "name": "SoftwareModule-l2_static_mac_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-label_mgr",
+                    "state": {
+                        "id": "SoftwareModule-label_mgr",
+                        "name": "SoftwareModule-label_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-lag_mgr",
+                    "state": {
+                        "id": "SoftwareModule-lag_mgr",
+                        "name": "SoftwareModule-lag_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-ldp_mgr",
+                    "state": {
+                        "id": "SoftwareModule-ldp_mgr",
+                        "name": "SoftwareModule-ldp_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-license_mgr",
+                    "state": {
+                        "id": "SoftwareModule-license_mgr",
+                        "name": "SoftwareModule-license_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-linux_mgr",
+                    "state": {
+                        "id": "SoftwareModule-linux_mgr",
+                        "name": "SoftwareModule-linux_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-lldp_mgr",
+                    "state": {
+                        "id": "SoftwareModule-lldp_mgr",
+                        "name": "SoftwareModule-lldp_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-log_mgr",
+                    "state": {
+                        "id": "SoftwareModule-log_mgr",
+                        "name": "SoftwareModule-log_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-macsec_mgr",
+                    "state": {
+                        "id": "SoftwareModule-macsec_mgr",
+                        "name": "SoftwareModule-macsec_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-mcid_mgr",
+                    "state": {
+                        "id": "SoftwareModule-mcid_mgr",
+                        "name": "SoftwareModule-mcid_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-mfib_mgr",
+                    "state": {
+                        "id": "SoftwareModule-mfib_mgr",
+                        "name": "SoftwareModule-mfib_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-mgmt_server",
+                    "state": {
+                        "id": "SoftwareModule-mgmt_server",
+                        "name": "SoftwareModule-mgmt_server",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-mirror_mgr",
+                    "state": {
+                        "id": "SoftwareModule-mirror_mgr",
+                        "name": "SoftwareModule-mirror_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-mpls_mgr",
+                    "state": {
+                        "id": "SoftwareModule-mpls_mgr",
+                        "name": "SoftwareModule-mpls_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-net_inst_mgr",
+                    "state": {
+                        "id": "SoftwareModule-net_inst_mgr",
+                        "name": "SoftwareModule-net_inst_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-netconf_mgr",
+                    "state": {
+                        "id": "SoftwareModule-netconf_mgr",
+                        "name": "SoftwareModule-netconf_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-oam_mgr",
+                    "state": {
+                        "id": "SoftwareModule-oam_mgr",
+                        "name": "SoftwareModule-oam_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-oc_mgmt_server",
+                    "state": {
+                        "id": "SoftwareModule-oc_mgmt_server",
+                        "name": "SoftwareModule-oc_mgmt_server",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-ospf_mgr",
+                    "state": {
+                        "id": "SoftwareModule-ospf_mgr",
+                        "name": "SoftwareModule-ospf_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-pcc_mgr",
+                    "state": {
+                        "id": "SoftwareModule-pcc_mgr",
+                        "name": "SoftwareModule-pcc_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-pim_mgr",
+                    "state": {
+                        "id": "SoftwareModule-pim_mgr",
+                        "name": "SoftwareModule-pim_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-plcy_mgr",
+                    "state": {
+                        "id": "SoftwareModule-plcy_mgr",
+                        "name": "SoftwareModule-plcy_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-qos_mgr",
+                    "state": {
+                        "id": "SoftwareModule-qos_mgr",
+                        "name": "SoftwareModule-qos_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-radius_mgr",
+                    "state": {
+                        "id": "SoftwareModule-radius_mgr",
+                        "name": "SoftwareModule-radius_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-sdk_mgr",
+                    "state": {
+                        "id": "SoftwareModule-sdk_mgr",
+                        "name": "SoftwareModule-sdk_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-segrt_mgr",
+                    "state": {
+                        "id": "SoftwareModule-segrt_mgr",
+                        "name": "SoftwareModule-segrt_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-sflow_sample_mgr",
+                    "state": {
+                        "id": "SoftwareModule-sflow_sample_mgr",
+                        "name": "SoftwareModule-sflow_sample_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-snmp_server-mgmt",
+                    "state": {
+                        "id": "SoftwareModule-snmp_server-mgmt",
+                        "name": "SoftwareModule-snmp_server-mgmt",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-sshd-mgmt",
+                    "state": {
+                        "id": "SoftwareModule-sshd-mgmt",
+                        "name": "SoftwareModule-sshd-mgmt",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "OpenSSH_9.2p1 Debian-2+deb12u3, OpenSSL 3.0.14 4 Jun 2024",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-sshd-mgmt-netconf",
+                    "state": {
+                        "id": "SoftwareModule-sshd-mgmt-netconf",
+                        "name": "SoftwareModule-sshd-mgmt-netconf",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "OpenSSH_9.2p1 Debian-2+deb12u3, OpenSSL 3.0.14 4 Jun 2024",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-static_route_mgr",
+                    "state": {
+                        "id": "SoftwareModule-static_route_mgr",
+                        "name": "SoftwareModule-static_route_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-supportd",
+                    "state": {
+                        "id": "SoftwareModule-supportd",
+                        "name": "SoftwareModule-supportd",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-te_mgr",
+                    "state": {
+                        "id": "SoftwareModule-te_mgr",
+                        "name": "SoftwareModule-te_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-twamp_mgr",
+                    "state": {
+                        "id": "SoftwareModule-twamp_mgr",
+                        "name": "SoftwareModule-twamp_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-vrrp_mgr",
+                    "state": {
+                        "id": "SoftwareModule-vrrp_mgr",
+                        "name": "SoftwareModule-vrrp_mgr",
+                        "oper-status": "openconfig-platform-types:INACTIVE",
+                        "software-version": "",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-vxlan_mgr",
+                    "state": {
+                        "id": "SoftwareModule-vxlan_mgr",
+                        "name": "SoftwareModule-vxlan_mgr",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "SoftwareModule-xdp_lc_1",
+                    "state": {
+                        "id": "SoftwareModule-xdp_lc_1",
+                        "name": "SoftwareModule-xdp_lc_1",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "software-version": "v24.10.1-492-gf8858c5836",
+                        "type": "openconfig-platform-types:SOFTWARE_MODULE"
+                    }
+                },
+                {
+                    "name": "Storage-/dev/sda-ControlA",
+                    "state": {
+                        "id": "Storage-/dev/sda-ControlA",
+                        "location": "ControlA-/dev/sda",
+                        "name": "Storage-/dev/sda-ControlA",
+                        "parent": "ControlA",
+                        "type": "openconfig-platform-types:STORAGE"
+                    }
+                },
+                {
+                    "name": "Storage-/dev/sdb-ControlA",
+                    "state": {
+                        "id": "Storage-/dev/sdb-ControlA",
+                        "location": "ControlA-/dev/sdb",
+                        "name": "Storage-/dev/sdb-ControlA",
+                        "parent": "ControlA",
+                        "type": "openconfig-platform-types:STORAGE"
+                    }
+                },
+                {
+                    "name": "Storage-/dev/sdc-ControlA",
+                    "state": {
+                        "id": "Storage-/dev/sdc-ControlA",
+                        "location": "ControlA-/dev/sdc",
+                        "name": "Storage-/dev/sdc-ControlA",
+                        "parent": "ControlA",
+                        "type": "openconfig-platform-types:STORAGE"
+                    }
+                },
+                {
+                    "name": "Storage-/dev/sdd-ControlA",
+                    "state": {
+                        "id": "Storage-/dev/sdd-ControlA",
+                        "location": "ControlA-/dev/sdd",
+                        "name": "Storage-/dev/sdd-ControlA",
+                        "parent": "ControlA",
+                        "type": "openconfig-platform-types:STORAGE"
+                    }
+                },
+                {
+                    "name": "SwitchChip1/0",
+                    "state": {
+                        "empty": "false",
+                        "firmware-version": "1.0",
+                        "hardware-version": "1.0",
+                        "id": "SwitchChip1/0",
+                        "last-reboot-time": "1740243223010000000",
+                        "mfg-name": "Broadcom",
+                        "name": "SwitchChip1/0",
+                        "oper-status": "openconfig-platform-types:ACTIVE",
+                        "parent": "Linecard1",
+                        "part-no": "Unknown",
+                        "removable": "false",
+                        "type": "openconfig-platform-types:INTEGRATED_CIRCUIT"
+                    }
+                },
+                {
+                    "name": "TempSensor-ControlA",
+                    "state": {
+                        "description": "Temperature sensor on ControlA",
+                        "id": "TempSensor-ControlA",
+                        "location": "ControlA",
+                        "name": "TempSensor-ControlA",
+                        "parent": "ControlA",
+                        "temperature": {
+                            "alarm-status": "false",
+                            "instant": "50.0",
+                            "max": "50.0",
+                            "max-time": "1740243218380000000"
+                        },
+                        "type": "openconfig-platform-types:SENSOR"
+                    }
+                }
+            ]
+        }
+    }
+}
